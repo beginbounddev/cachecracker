@@ -56,7 +56,7 @@ For issues, suggestions, or contributions, please submit an issue or pull reques
 
 For professional HubSpot support, consulting, or custom development:
 - Visit [Begin Bound LLC](https://www.beginbound.com)
-- Email: contact@beginbound.com
+- Email: info@beginbound.com
 
 ## Creators
 
