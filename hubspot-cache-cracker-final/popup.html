@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HubSpot Cache Cracker</title>
+  <link rel="stylesheet" href="popup.css">
+  <script src="popup.js" defer></script>
+</head>
+<body>
+  <div class="container">
+    <h1>HubSpot Cache Cracker</h1>
+    <p class="description">Quickly crack cache to see your content updates</p>
+    
+    <button id="bustCacheBtn" class="bust-button">
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-refresh-cw">
+        <polyline points="23 4 23 10 17 10"></polyline>
+        <polyline points="1 20 1 14 7 14"></polyline>
+        <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path>
+      </svg>
+      Crack Cache
+    </button>
+    
+    <div id="status" class="status"></div>
+    
+    <div id="lastBust" class="last-bust hidden">
+      <p class="last-bust-title">Last cache crack:</p>
+      <p id="lastBustTime" class="last-bust-time"></p>
+      <p id="lastBustUrl" class="last-bust-url"></p>
+    </div>
+    
+    <div class="tips">
+      <p class="tip-title">Keyboard shortcuts:</p>
+      <p class="tip"><span class="key-combo">Ctrl+Shift+B</span> (or <span class="key-combo">⌘+Shift+B</span>) - Open extension</p>
+      <p class="tip"><span class="key-combo">Alt+Shift+B</span> - Crack cache directly</p>
+    </div>
+    
+    <div class="footer">
+      <p>Works on HubSpot CMS pages</p>
+      <p class="credits">Created by <a href="https://www.beginbound.com" target="_blank">Begin Bound LLC</a></p>
+      <p class="credits-names">Jesse D. Pennington & Simon Gugala</p>
+    </div>
+  </div>
+</body>
+</html>
