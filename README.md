@@ -1,2 +1,0 @@
-# cachecracker
-HubSpot Cache Cracker
